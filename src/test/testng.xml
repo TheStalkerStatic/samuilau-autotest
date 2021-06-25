@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SuiteHabr">
+    <test name = "testLogin">
+        <classes>
+            <class name = "org.example.LoginTest"/>
+            <class name = "org.example.SearchTest"/>
+            <class name = "org.example.LangTest"/>
+            <class name = "org.example.JsExecutorTest"/>
+        </classes>
+    </test>
+</suite>
