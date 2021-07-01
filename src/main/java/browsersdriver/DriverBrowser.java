@@ -1,4 +1,4 @@
-package BrowsersDriver;
+package browsersdriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.AccessLevel;

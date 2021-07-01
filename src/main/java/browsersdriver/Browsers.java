@@ -1,4 +1,4 @@
-package BrowsersDriver;
+package browsersdriver;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

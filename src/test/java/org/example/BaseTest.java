@@ -1,6 +1,6 @@
 package org.example;
 
-import BrowsersDriver.DriverBrowser;
+import browsersdriver.DriverBrowser;
 import logs.ShittyListener;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
