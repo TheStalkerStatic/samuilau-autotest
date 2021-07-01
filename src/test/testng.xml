@@ -2,9 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name = "SuiteHabr">
-    <test name = "testLogin">
+    <listeners>
+        <listener class-name="logs.ShittyListener"/>
+    </listeners>
+    <test name = "testHabr">
         <classes>
-            <class name = "org.example.LoginTest"/>
+            <class name = "org.example.LoginTest">
+<!--                <methods>-->
+<!--                    <include name="testLogin"/>-->
+<!--                    <exclude name="testMail"/>-->
+<!--                </methods>-->
+            </class>
             <class name = "org.example.SearchTest"/>
             <class name = "org.example.LangTest"/>
             <class name = "org.example.JsExecutorTest"/>

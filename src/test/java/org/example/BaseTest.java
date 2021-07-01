@@ -1,25 +1,22 @@
 package org.example;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import java.util.concurrent.TimeUnit;
+import BrowsersDriver.DriverBrowser;
+import logs.ShittyListener;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.*;
 
+@Listeners(ShittyListener.class)
 public class BaseTest {
+    WebDriver driver;
+    private final String startUrl = ReaderHelper.getConf().getLink();
 
-    public ChromeDriver driver;
-
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get("https://habr.com/");
+        driver = DriverBrowser.getDriver();
+        driver.get(startUrl);
     }
 
-    @AfterMethod
+    @AfterSuite
     public void quit() {
         driver.quit();
     }
