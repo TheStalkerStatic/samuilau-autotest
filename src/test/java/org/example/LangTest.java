@@ -21,5 +21,4 @@ public class LangTest extends BaseTest {
                 Assert.assertEquals(homePage.headerTextGet(), "All streams");
     }
 }
-
-
+//end

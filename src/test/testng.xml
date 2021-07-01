@@ -9,8 +9,8 @@
         <classes>
             <class name = "org.example.LoginTest">
 <!--                <methods>-->
-<!--                    <include name="testLogin"/>-->
-<!--                    <exclude name="testMail"/>-->
+<!--                    <include name="testLoin"/>-->
+<!--                    <exclude name="testMal"/>-->
 <!--                </methods>-->
             </class>
             <class name = "org.example.SearchTest"/>

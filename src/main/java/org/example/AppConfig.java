@@ -26,3 +26,4 @@ public interface AppConfig extends Config {
     @Key("timeout.page")
     int getTimeoutPage();
 }
+//end

@@ -65,3 +65,4 @@ public class LoginPage extends BasePage {
         goBack.executeScript("window.history.go(-1)");
     }
 }
+//end

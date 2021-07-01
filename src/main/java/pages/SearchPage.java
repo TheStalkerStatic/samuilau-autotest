@@ -21,3 +21,4 @@ public class SearchPage extends BasePage {
         return this;
     }
 }
+//end

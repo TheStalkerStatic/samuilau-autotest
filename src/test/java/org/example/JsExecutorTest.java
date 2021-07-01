@@ -24,3 +24,4 @@ public class JsExecutorTest extends BaseTest {
         Assert.assertEquals(testText.getText(), "Page with text");
     }
 }
+//end
