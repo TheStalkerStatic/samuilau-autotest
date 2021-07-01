@@ -7,7 +7,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 @Slf4j
-public class ThisListener implements ITestListener {
+public class DefListener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
