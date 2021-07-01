@@ -3,7 +3,7 @@
 
 <suite name = "SuiteHabr">
     <listeners>
-        <listener class-name="logs.ShittyListener"/>
+        <listener class-name="logs.ThisListener"/>
     </listeners>
     <test name = "testHabr">
         <classes>
