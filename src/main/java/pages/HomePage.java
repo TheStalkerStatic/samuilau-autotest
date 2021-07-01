@@ -104,3 +104,4 @@ public class HomePage extends BasePage  {
         Assert.assertTrue(logInButton.isDisplayed());
     }
 }
+//end

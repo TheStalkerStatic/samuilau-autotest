@@ -11,3 +11,4 @@ public enum Browsers {
     @Getter
     private final String name;
 }
+//end

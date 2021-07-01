@@ -1,11 +1,9 @@
 package org.example;
 
 import io.qameta.allure.Description;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.HomePage;
-
 
 public class LoginTest extends BaseTest {
     private final String mail = ReaderHelper.getConf().getMail();
@@ -49,6 +47,7 @@ public class LoginTest extends BaseTest {
                 .goBackToHomePage(driver);
     }
 }
+//end
 
 
 

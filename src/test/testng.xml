@@ -3,14 +3,14 @@
 
 <suite name = "SuiteHabr">
     <listeners>
-        <listener class-name="logs.ThisListener"/>
+        <listener class-name="logs.DefListener"/>
     </listeners>
     <test name = "testHabr">
         <classes>
             <class name = "org.example.LoginTest">
 <!--                <methods>-->
-<!--                    <include name="testLogin"/>-->
-<!--                    <exclude name="testMail"/>-->
+<!--                    <include name="testLoin"/>-->
+<!--                    <exclude name="testMal"/>-->
 <!--                </methods>-->
             </class>
             <class name = "org.example.SearchTest"/>

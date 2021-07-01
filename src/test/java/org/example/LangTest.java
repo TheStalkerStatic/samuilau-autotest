@@ -1,13 +1,11 @@
 package org.example;
 
 import io.qameta.allure.Description;
-
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePage;
-
 
 public class LangTest extends BaseTest {
 
@@ -23,5 +21,4 @@ public class LangTest extends BaseTest {
                 Assert.assertEquals(homePage.headerTextGet(), "All streams");
     }
 }
-
-
+//end

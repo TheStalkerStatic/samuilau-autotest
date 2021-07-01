@@ -16,4 +16,5 @@ public class SearchTest extends BaseTest {
                 .foundNews();
     }
 }
+//end
 

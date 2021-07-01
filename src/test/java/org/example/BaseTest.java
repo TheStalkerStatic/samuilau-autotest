@@ -1,11 +1,11 @@
 package org.example;
 
 import browsersdriver.DriverBrowser;
-import logs.ThisListener;
+import logs.DefListener;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
-@Listeners(ThisListener.class)
+@Listeners(DefListener.class)
 public class BaseTest {
     WebDriver driver;
     private final String startUrl = ReaderHelper.getConf().getLink();
@@ -21,3 +21,4 @@ public class BaseTest {
         driver.quit();
     }
 }
+//end
