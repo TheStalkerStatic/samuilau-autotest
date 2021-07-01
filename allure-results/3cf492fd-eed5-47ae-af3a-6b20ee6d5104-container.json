@@ -1,0 +1,1 @@
+{"uuid":"3cf492fd-eed5-47ae-af3a-6b20ee6d5104","name":"samuilau-autotests","children":["539d43b0-e65b-421b-a53f-53fefbe907ad"],"befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1624538815083,"stop":1624538815322}],"links":[],"start":1624538806997,"stop":1624538815322}

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SuiteHabr">
+    <listeners>
+        <listener class-name="logs.ThisListener"/>
+    </listeners>
+    <test name = "testHabr">
+        <classes>
+            <class name = "org.example.LoginTest">
+<!--                <methods>-->
+<!--                    <include name="testLogin"/>-->
+<!--                    <exclude name="testMail"/>-->
+<!--                </methods>-->
+            </class>
+            <class name = "org.example.SearchTest"/>
+            <class name = "org.example.LangTest"/>
+            <class name = "org.example.JsExecutorTest"/>
+        </classes>
+    </test>
+</suite>
